@@ -29,15 +29,16 @@ $ - разделитель, соответственно в документах
 Скрипт: clean_lcp.py
 Употребление: clean_lcp.py out.sa
 
-Он перезапишет out.sa
+Он перезапишет:
+    out.sa
 
 4. Дальше логично отфильтровать часть ненужных LCP
 
-Скрипт: 
+Скрипт:
     filter_lcp.py
 Употребление: 
     filter_lcp.py out.sa filtered.sa tf_cutoff df_cutoff length_cutoff
-Например: 
+Например:
     filter_lcp.py out.sa filtered.sa 10 3 15
     
 
