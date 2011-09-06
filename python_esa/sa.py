@@ -178,7 +178,7 @@ class ESA(object):
                 fh.writelines(self.lcp_result)
 
 def sc_get_lcp_for_given_corpus(corpus, lcp_file):
-    ''' Sortcut for ESA computation.'''
+    ''' Shortcut for ESA computation.'''
 
     esa = ESA(corpus, lcp_file=lcp_file)
     esa.compute_esa()
